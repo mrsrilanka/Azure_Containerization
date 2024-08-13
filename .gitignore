@@ -1,0 +1,4 @@
+#Ignore the following  
+aks_test/.terraform.lock.hcl
+aks_test/.terraform/
+aks_test/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.115.0/linux_amd64/terraform-provider-azurerm_v3.115.0_x5
