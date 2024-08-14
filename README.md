@@ -1,5 +1,6 @@
 US CLoud
-Background
+
+Background:
 This repo will demonstrate how to create a AKS cluster using AzrureRM and Terraform.
 
 Prerequitites:
