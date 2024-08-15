@@ -67,7 +67,11 @@ aks_fqdn = "uscloud-aks-mlbg474r.hcp.centralus.azmk8s.io"
 aks_id = "/subscriptions/d0a02c25-201c-441e-b6e7-6ced31ede324/resourceGroups/aks_terraform_rg/providers/Microsoft.ContainerService/managedClusters/uscloud-aks"
 aks_node_rg = "aks_terraform_resources_rg"
 ```
+Azure Portal view 
 <img width="828" alt="2024-08-15 09_14_22-Kubernetes services - Microsoft Azure and 17 more pages - Work - Microsoft​ Edge" src="https://github.com/user-attachments/assets/4f2f67dd-a2ef-4b1c-9aff-087aa2dc0a53">
+
+Console view
+<img width="828" alt="2024-08-15 09_14_22-Kubernetes services - Microsoft Azure and 17 more pages - Work - Microsoft​ Edge" src="https://github.com/user-attachments/assets/758e70db-ed70-45fb-9457-ad5708d0cf68">
 
 12. To delete the infrastructure that was created
 ```
