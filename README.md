@@ -57,6 +57,16 @@ cat tfplan.json | jq '[.resource_changes[] | {type: .type, name: .change.after.n
 ```
 terraform apply tfplan
 ```
+Output will look like this 
+```
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+aks_fqdn = "uscloud-aks-mlbg474r.hcp.centralus.azmk8s.io"
+aks_id = "/subscriptions/d0a02c25-201c-441e-b6e7-6ced31ede324/resourceGroups/aks_terraform_rg/providers/Microsoft.ContainerService/managedClusters/uscloud-aks"
+aks_node_rg = "aks_terraform_resources_rg"
+```
 12. Tp delete the infrastructure that was created
 ```
 terraform destroy
