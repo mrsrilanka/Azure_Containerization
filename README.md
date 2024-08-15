@@ -1,4 +1,4 @@
-# US CLoud
+# US CLoud Azure AKS Deployment automation 
 
 Background:
 This repo will demonstrate how to create a AKS cluster using AzrureRM and Terraform.
