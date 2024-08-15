@@ -69,7 +69,7 @@ aks_node_rg = "aks_terraform_resources_rg"
 ```
 <img width="828" alt="2024-08-15 09_14_22-Kubernetes services - Microsoft Azure and 17 more pages - Work - Microsoft​ Edge" src="https://github.com/user-attachments/assets/4f2f67dd-a2ef-4b1c-9aff-087aa2dc0a53">
 
-12. Tp delete the infrastructure that was created
+12. To delete the infrastructure that was created
 ```
 terraform destroy
 ```
