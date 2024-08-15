@@ -73,3 +73,6 @@ aks_node_rg = "aks_terraform_resources_rg"
 ```
 terraform destroy
 ```
+
+## Note
+Feel free to fork and submit a PR upstream for any changes that needed to make 
