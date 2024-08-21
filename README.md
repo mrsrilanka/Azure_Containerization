@@ -7,6 +7,7 @@ Prerequitites:
 1. Terraform installed in the local system
 2. Access to GitHub and Git installed locally
 3. Azure subscription with contributor/owner roles.
+4. JSON processor jq installed (optional) 
 
 Steps:
 1. Clone the repo
