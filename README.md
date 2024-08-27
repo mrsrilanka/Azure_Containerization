@@ -43,6 +43,9 @@ terraform plan -out tfplan
 8. show the tfplan file and make it readable jq output
 ```
 terraform show -json tfplan
+```
+
+```
 terraform show -json tfplan >> tfplan.json
 ```
 9. Format tfplan.json file
