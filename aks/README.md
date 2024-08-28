@@ -68,7 +68,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 Outputs:
 
 aks_fqdn = "uscloud-aks-mlbg474r.hcp.centralus.azmk8s.io"
-aks_id = "/subscriptions/d0a02c25-201c-441e-b6e7-6ced31ede324/resourceGroups/aks_terraform_rg/providers/Microsoft.ContainerService/managedClusters/uscloud-aks"
+aks_id = "/subscriptions/xxxxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxx/resourceGroups/aks_terraform_rg/providers/Microsoft.ContainerService/managedClusters/uscloud-aks"
 aks_node_rg = "aks_terraform_resources_rg"
 ```
 ### Azure Portal view 
@@ -86,3 +86,7 @@ terraform destroy
 
 ## Note
 Feel free to fork and submit a PR upstream for any changes that needed to make 
+
+Resources:
+[Terraform AzureARM](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster_node_pool)
+
