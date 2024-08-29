@@ -13,7 +13,7 @@ Steps:
 1. Clone the repo
 
 ```
-git clone https://github.com/mrsrilanka/uscloud.git
+git clone https://github.com/mrsrilanka/Azure_Containerization.git
 ```
 
 2. Make sure terraform CLI is installed
@@ -67,7 +67,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
 Outputs:
 
-aks_fqdn = "uscloud-aks-mlbg474r.hcp.centralus.azmk8s.io"
+aks_fqdn = "xxxxxx-aks-mlbg474r.hcp.centralus.azmk8s.io"
 aks_id = "/subscriptions/xxxxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxx/resourceGroups/aks_terraform_rg/providers/Microsoft.ContainerService/managedClusters/uscloud-aks"
 aks_node_rg = "aks_terraform_resources_rg"
 ```
