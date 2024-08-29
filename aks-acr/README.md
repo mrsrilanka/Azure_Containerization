@@ -106,6 +106,7 @@ Removed: .terraform
 Cleanup process completed.
 ```
 Resources:
-[Terraform AzureARM kubernetes cluster ](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster_node_pool)
-[Terraform AzureARM ACR](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry)
+1. [Terraform AzureARM kubernetes cluster ](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster_node_pool)
+
+2. [Terraform AzureARM ACR](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry)
 
