@@ -14,7 +14,7 @@ Steps:
 1. Clone the repo
 
 ```
-git clone https://github.com/mrsrilanka/uscloud.git
+git clone https://github.com/mrsrilanka/Azure_Containerization.git
 ```
 
 2. Make sure terraform CLI is installed
@@ -88,6 +88,23 @@ terraform destroy
 ## Note
 Feel free to fork and submit a PR upstream for any changes that needed to make 
 
+## Clean up resources 
+1. Copy the cleanup.sh script to the root directory
+2. Make it executable: chmod +x cleanup.sh.
+Run the script: ./cleanup.sh.
+
+Example output: 
+```
+nrk@USCLOUD-7709:/mnt/c/Users/NaningaKarunaratne/Documents/git/Azure_Containerization/aks-acr$ ./cleanup.sh 
+Removed: terraform.tfstate
+Removed: terraform.tfstate.backup
+Removed: .terraform.lock.hcl
+Removed: tfplan
+Removed: tfplan.json
+Removed: .terraform
+Cleanup process completed.
+```
 Resources:
-[Terraform AzureARM](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster_node_pool)
+[Terraform AzureARM kubernetes cluster ](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster_node_pool)
+[Terraform AzureARM ACR](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry)
 
