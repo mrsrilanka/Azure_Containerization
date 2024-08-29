@@ -79,7 +79,7 @@ aks_node_rg = "aks_terraform_resources_rg"
 
 ### Console view
 
-<img width="713" alt="2024-08-15 10_44_13-Editing uscloud_README md at main · mrsrilanka_uscloud and 9 more pages - manwit" src="https://github.com/user-attachments/assets/858dc4bc-a074-4e3d-97ed-9e3fc78ded08">
+<img width="835" alt="image" src="https://github.com/user-attachments/assets/d56c8993-2155-4b44-b385-698c84a59811">
 
 12. To delete the infrastructure that was created
 ```
