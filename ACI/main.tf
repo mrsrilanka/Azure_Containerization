@@ -1,8 +1,9 @@
-resource "random_pet" "rg_name" {
-  prefix = var.resource_group_name_prefix
+resource "azurerm_resource_group" "rg" {
+  location = var.location
+  name     = var.resource_group_name
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_" "aci" {
   name     = random_pet.rg_name.id
   location = var.resource_group_location
 }
